@@ -1,0 +1,53 @@
+SpaCy에서 사용되는 품사 태그(Part-of-Speech Tags)는 다음과 같습니다. SpaCy는 Universal Dependencies(UD) 태그 세트를 기반으로 하며, 각 태그는 특정 품사를 나타냅니다.
+
+SpaCy에서 사용되는 주요 품사 태그
+
+1. Nouns (명사)
+   - NOUN: 일반 명사 (e.g., dog, car)
+   - PROPN: 고유 명사 (e.g., John, London)
+
+2. Pronouns (대명사)
+   - PRON: 대명사 (e.g., I, you, he)
+
+3. Verbs (동사)
+   - VERB: 동사 (e.g., run, eat)
+   - AUX: 보조 동사 (e.g., is, have)
+
+4. Adjectives (형용사)
+   - ADJ: 형용사 (e.g., big, blue)
+
+5. Adverbs (부사)
+   - ADV: 부사 (e.g., quickly, very)
+
+6. Prepositions (전치사)
+   - ADP: 전치사 (e.g., in, on, at)
+
+7. Conjunctions (접속사)
+   - CCONJ: 등위 접속사 (e.g., and, but)
+   - SCONJ: 종속 접속사 (e.g., because, although)
+
+8. Determiners (한정사)
+   - DET: 한정사 (e.g., the, a, some)
+
+9. Interjections (감탄사)
+   - INTJ: 감탄사 (e.g., oh, wow)
+
+10. Numbers (숫자)
+    - NUM: 숫자 (e.g., one, two, three)
+
+11. Others (기타)
+    - PART: 분사 (e.g., to)
+    - SYM: 기호 (e.g., $, %, &)
+
+예시 문장과 SpaCy 태깅
+문장 "The quick brown fox jumps over the lazy dog."를 SpaCy로 처리하면 다음과 같은 태그를 얻을 수 있습니다:
+
+- The (DET)
+- quick (ADJ)
+- brown (ADJ)
+- fox (NOUN)
+- jumps (VERB)
+- over (ADP)
+- the (DET)
+- lazy (ADJ)
+- dog (NOUN)
