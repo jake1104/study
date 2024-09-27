@@ -1,1 +1,2 @@
-# study
+# Study
+my study site!
